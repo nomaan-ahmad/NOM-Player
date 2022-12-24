@@ -15,12 +15,10 @@
    <children>
       <MenuBar>
         <menus>
-          <Menu mnemonicParsing="false" text="Media">
-            <items>
-              <MenuItem mnemonicParsing="false" onAction="#chooseFileMethod" text="Open File..." />
-                  <MenuItem mnemonicParsing="false" text="Quit" />
-            </items>
-          </Menu>
+            <Menu mnemonicParsing="false" text="Media">
+                <MenuItem mnemonicParsing="false" onAction="#chooseFileMethod" text="Open File..."/>
+                <MenuItem mnemonicParsing="false" text="Quit"/>
+            </Menu>
           <Menu mnemonicParsing="false" text="Playback">
             <items>
                   <MenuItem mnemonicParsing="false" onAction="#play" text="Play" />
